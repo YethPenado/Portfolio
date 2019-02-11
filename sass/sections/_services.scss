@@ -2,16 +2,15 @@
   border: solid 3px $wine;
   margin-right: 1%;
   margin-top: 2%;
-  width: 50%;
+  width: 25%;
 }
 
-.services-subtitle{
+.services-title, .services-subtitle{
   text-align: center;
-}
-
-.services-title{
-  text-align: center;
-  font-size: 2em;
+  font-size: 3em;
+  font-family: $font-titular;
+  letter-spacing: 3px;
+  color: $brown;
 }
 
 .skills{
@@ -21,6 +20,5 @@
 }
 
 .ul-skills{
-  padding-left: 15%;
-  padding-top: 5%;
+  padding: 5% 20% 15%;
 }

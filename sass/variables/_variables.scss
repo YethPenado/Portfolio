@@ -1,0 +1,45 @@
+// TIPOGRAFÍAS
+$font-titular: 'akkaPose', Helvetica;
+$font-principal: 'PT Serif', 'Times New Roman', serif;
+
+// COLORES
+$gold: #D4AF37;
+$wine: #781F3C;
+
+// TAMAÑOS
+$size-principal: 1.375em;
+
+@font-face{
+  font-family: akkaPose;
+  src: url(../font/akaPosse.ttf);
+}
+
+@mixin language{
+  background-color: $wine;
+  border-radius: 5px;
+  color: $gold;
+  font-family: $font-titular;
+  font-size: 1.75em;
+  letter-spacing: 2px;
+  margin-right: 2%;
+  padding: 10px 15px;
+}
+
+@mixin menu{
+  cursor: pointer;
+  float: right;
+  height: 60px;
+  margin-right: 2%;
+  width: 60px;
+}
+
+@mixin subtitle{
+  background-color: $wine;
+  color: $gold;
+  display: inline-block;
+  font-family: $font-titular;
+  font-size: 2em;
+  letter-spacing: 2px;
+  padding: 20px 50px;
+  text-align: center;
+}

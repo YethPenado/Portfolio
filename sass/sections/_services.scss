@@ -1,0 +1,26 @@
+.columns{
+  border: solid 3px $wine;
+  margin-right: 1%;
+  margin-top: 2%;
+  width: 50%;
+}
+
+.services-subtitle{
+  text-align: center;
+}
+
+.services-title{
+  text-align: center;
+  font-size: 2em;
+}
+
+.skills{
+  font-size: $size-principal;
+  list-style-image: url("../img/settings.png");
+  padding-bottom: 20px;
+}
+
+.ul-skills{
+  padding-left: 15%;
+  padding-top: 5%;
+}

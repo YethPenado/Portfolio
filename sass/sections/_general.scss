@@ -1,0 +1,59 @@
+a{
+  text-decoration: none;
+}
+
+body{
+  background-image: url('../img/old.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  overflow: hidden;
+}
+
+h3{
+  color: $wine;
+  font-size: 2em;
+}
+
+li{
+  font-family: $font-principal;
+  list-style: none;
+  color: $brown;
+}
+
+p{
+  color: $brown;
+  font-family: $font-principal;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+.container-columns{
+  display: flex;
+  margin: 2% 12%;
+}
+
+.column-box{
+  flex: auto;
+  padding-right: 12%;
+}
+
+.header{
+  padding-top: 2%;
+}
+
+.header-subtitle{
+  @include subtitle;
+  margin: 0;
+}
+
+.language-button{
+  @include language;
+}
+
+.menu-bg{
+  @include menu;
+}

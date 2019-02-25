@@ -1,0 +1,230 @@
+@font-face {
+  font-family: akkaPose;
+  src: url(../font/akaPosse.ttf);
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  background-image: url("../img/old.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  overflow: hidden;
+}
+
+h3 {
+  color: #781F3C;
+  font-size: 2em;
+}
+
+li {
+  font-family: "PT Serif", "Times New Roman", serif;
+  list-style: none;
+  color: #342205;
+}
+
+p {
+  color: #342205;
+  font-family: "PT Serif", "Times New Roman", serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.container-columns {
+  display: flex;
+  margin: 2% 12%;
+}
+
+.column-box {
+  flex: auto;
+  padding-right: 12%;
+}
+
+.header {
+  padding-top: 2%;
+}
+
+.header-subtitle {
+  background-color: #781F3C;
+  color: #D4AF37;
+  display: inline-block;
+  font-family: "akkaPose", Helvetica;
+  font-size: 2em;
+  letter-spacing: 2px;
+  padding: 20px 50px;
+  text-align: center;
+  margin: 0;
+}
+
+.language-button {
+  background-color: #781F3C;
+  border-radius: 5px;
+  color: #D4AF37;
+  font-family: "akkaPose", Helvetica;
+  font-size: 1.75em;
+  letter-spacing: 2px;
+  margin-right: 2%;
+  padding: 10px 15px;
+}
+
+.menu-bg {
+  cursor: pointer;
+  float: right;
+  height: 60px;
+  margin-right: 2%;
+  width: 60px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#homepage {
+  background-image: url("../img/burdeos.jpg");
+  height: 100vh;
+  width: 100%;
+}
+
+.menu-a {
+  color: #D4AF37;
+  cursor: pointer;
+  font-family: "akkaPose", Helvetica;
+  font-size: 2em;
+  padding: 10px 25px;
+  position: relative;
+  text-decoration: none;
+}
+
+.menu-li {
+  text-align: center;
+  list-style: none;
+  margin-bottom: 20px;
+  padding: 20px 0;
+}
+
+.menu-a::before {
+  content: "";
+  display: block;
+  height: 3px;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: all 0.3s;
+  width: 0;
+}
+
+.menu-a:hover::before {
+  width: 100%;
+}
+
+.name {
+  color: #D4AF37;
+  font-family: "akkaPose", Helvetica;
+  font-size: 6.25em;
+  margin: 0;
+  padding-top: 5%;
+  text-align: center;
+}
+
+.profesion {
+  color: #D4AF37;
+  font-family: "PT Serif", "Times New Roman", serif;
+  font-size: 2em;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+#spanish {
+  background-color: #D4AF37;
+  border-radius: 5px;
+  color: #781F3C;
+  font-family: "akkaPose", Helvetica;
+  font-size: 1.75em;
+  padding: 10px 15px;
+  margin: 1%;
+  float: right;
+}
+
+.contact-button {
+  background-color: #781F3C;
+  border-bottom: 5px solid #550921;
+  border-radius: 10px;
+  color: #D4AF37;
+  font-family: "akkaPose", Helvetica;
+  font-size: 1.375em;
+  padding: 10px 40px;
+  text-shadow: 0px -2px #550921;
+}
+
+.persona-description {
+  font-size: 1.5em;
+  padding-bottom: 5%;
+}
+
+.profile-photo {
+  width: 400px;
+  height: 400px;
+  border-radius: 300px;
+  border: 5px solid #781F3C;
+}
+
+.language-button {
+  float: right;
+  position: relative;
+}
+
+.columns {
+  border: solid 3px #781F3C;
+  margin-right: 1%;
+  margin-top: 2%;
+  width: 25%;
+}
+
+.services-title, .services-subtitle {
+  text-align: center;
+  font-size: 3em;
+  font-family: "akkaPose", Helvetica;
+  letter-spacing: 3px;
+  color: #342205;
+}
+
+.skills {
+  font-size: 1.375em;
+  list-style-image: url("../img/settings.png");
+  padding-bottom: 20px;
+}
+
+.ul-skills {
+  padding: 5% 20% 15%;
+}
+
+.contact-txt {
+  font-size: 1.375em;
+  padding-bottom: 5%;
+}
+
+.icons {
+  font-size: 6.25em;
+  color: #781F3C;
+  display: inline-block;
+}
+
+.schedule {
+  color: #781F3C;
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+.social-media {
+  display: inline-block;
+  margin-right: 8%;
+}
+
+/*# sourceMappingURL=main.css.map */

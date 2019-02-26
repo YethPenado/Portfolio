@@ -2,17 +2,26 @@ a{
   text-decoration: none;
 }
 
-body{
-  background-image: url('../img/old.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%;
-  overflow: hidden;
+/*
+body::-webkit-scrollbar{
+  background-color: $wine;
 }
+
+body::-webkit-scrollbar-thumb{
+  background-color: $gold;
+}
+*/
 
 h3{
   color: $wine;
   font-size: 2em;
+}
+
+html{
+  background-image: url('../img/old.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
 }
 
 li{

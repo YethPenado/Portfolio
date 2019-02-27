@@ -35,6 +35,11 @@ p{
   font-family: $font-principal;
 }
 
+p::selection{
+  background-color: $wine;
+  color: whitesmoke;
+}
+
 ul{
   margin: 0;
   padding: 0;

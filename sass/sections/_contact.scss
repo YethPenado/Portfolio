@@ -15,6 +15,11 @@
   font-size: 1.25em;
 }
 
+.schedule::selection{
+  background-color: $gold;
+  color: whitesmoke;
+}
+
 .social-media{
   display: inline-block;
   margin-right: 8%;

@@ -18,6 +18,7 @@ $size-principal: 1.375em;
 
 @mixin language{
   background-color: $wine;
+  border-bottom: 5px solid #550921;
   border-radius: 5px;
   color: $gold;
   font-family: $font-titular;
@@ -28,7 +29,7 @@ $size-principal: 1.375em;
 }
 
 @mixin menu{
-  cursor: pointer;
+  cursor: url(../img/cursor.png), auto;
   float: right;
   height: 60px;
   margin-right: 2%;

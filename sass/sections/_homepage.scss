@@ -1,9 +1,3 @@
-body{
-  margin: 0;
-  padding: 0;
-  cursor: url(../img/cursor.png), auto;
-}
-
 #homepage{
   background-image: url('../img/burdeos.jpg');
   background-size: cover;
@@ -60,13 +54,22 @@ body{
   text-align: center;
 }
 
-#spanish{
+.lang{
   background-color: $gold;
   border-radius: 5px;
+  border-bottom: 5px solid #AF9234;
   color: $wine;
   float: right;
   font-family: $font-titular;
   font-size: 1.75em;
   padding: 10px 15px;
-  margin: 1%;
+  margin: 20px 20px 0 0;
+}
+
+.clearfix{
+  &::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
 }

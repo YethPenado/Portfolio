@@ -1,5 +1,12 @@
 a{
   text-decoration: none;
+  cursor: url(../img/cursor.png), auto;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  cursor: url(../img/cursor-stmpk.png), auto;
 }
 
 /*
@@ -15,6 +22,11 @@ body::-webkit-scrollbar-thumb{
 h3{
   color: $wine;
   font-size: 2em;
+}
+
+h3::selection{
+  background-color: $green;
+  color: whitesmoke;
 }
 
 html{

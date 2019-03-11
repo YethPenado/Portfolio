@@ -10,11 +10,11 @@ body{
 }
 
 body::-webkit-scrollbar{
-	background-color: whitesmoke;
+  background-color: whitesmoke;
 }
 
 body::-webkit-scrollbar-thumb{
-	border-radius: 5px;
+  border-radius: 5px;
   background-color: $wine;
 }
 

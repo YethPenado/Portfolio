@@ -1,9 +1,10 @@
 .columns{
   border: solid 3px $wine;
-  background-color: $green;
+  background-image: url(../img/green-bg.jpg);
   margin-right: 1%;
   margin-top: 2%;
   width: 25%;
+  position: relative;
 }
 
 .services-title, .services-subtitle{
@@ -22,4 +23,16 @@
 
 .ul-skills{
   padding: 5% 20% 15%;
+}
+
+.geartest{
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+.bottom{
+  position: absolute;
+  left: 5px;
+  bottom: 0%;
 }

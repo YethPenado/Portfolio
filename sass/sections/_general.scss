@@ -1,6 +1,6 @@
 a{
   text-decoration: none;
-  cursor: url(../img/cursor.png), auto;
+  cursor: url(../img/cursor-fly.png), auto;
 }
 
 body{
@@ -9,15 +9,14 @@ body{
   cursor: url(../img/cursor-stmpk.png), auto;
 }
 
-/*
 body::-webkit-scrollbar{
-  background-color: $wine;
+	background-color: whitesmoke;
 }
 
 body::-webkit-scrollbar-thumb{
-  background-color: $gold;
+	border-radius: 5px;
+  background-color: $wine;
 }
-*/
 
 h3{
   color: $wine;
@@ -32,8 +31,7 @@ h3::selection{
 html{
   background-image: url('../img/old.jpg');
   background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%;
+  height: 100vh;
 }
 
 li{
@@ -77,9 +75,42 @@ ul{
 }
 
 .language-button{
-  @include language;
+  background-color: $wine;
+  border-bottom: 5px solid #550921;
+  border-radius: 5px;
+  color: $gold;
+  font-family: $font-titular;
+  font-size: 1.75em;
+  letter-spacing: 2px;
+  margin-right: 2%;
+  padding: 10px 15px;
+}
+
+.language-button:hover{
+  border: 2px solid;
+  box-shadow: inset 0 0 20px $gold, 0 0 15px #805B26;
+  outline-offset: 15px;
 }
 
 .menu-bg{
-  @include menu;
+  cursor: url(../img/cursor-fly.png), auto;
+  float: right;
+  margin-right: 2%;
+}
+
+.menu-bg:hover{
+  animation: shake 180ms 2 linear;
+  display: inline-block;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(3px, 0);
+  }
+  50% {
+    transform: translate(-3px, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
 }

@@ -26,3 +26,11 @@ $size-principal: 1.375em;
   padding: 20px 50px;
   text-align: center;
 }
+
+@mixin zoom-in {
+  transform: scale(1);
+  transition: .3s ease-in-out;
+    &:hover{
+  transform: scale(1.1);
+  }
+}

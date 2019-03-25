@@ -6,7 +6,11 @@
 .icons{
   font-size: 6.25em;
   color: $wine;
-  display: inline-block;
+  @include zoom-in();
+}
+
+.icons:hover{
+  color: #8C3953;
 }
 
 .schedule{
@@ -24,4 +28,3 @@
   display: inline-block;
   margin-right: 8%;
 }
-

@@ -1,12 +1,12 @@
 a{
   text-decoration: none;
-  cursor: url(../img/cursor-fly.png), auto;
+  cursor: url(../img/cursors/cursor-fly.png), auto;
 }
 
 body{
   margin: 0;
   padding: 0;
-  cursor: url(../img/cursor-stmpk.png), auto;
+  cursor: url(../img/cursors/cursor-stmpk.png), auto;
 }
 
 body::-webkit-scrollbar{
@@ -29,9 +29,8 @@ h3::selection{
 }
 
 html{
-  background-image: url('../img/old.jpg');
+  background-image: url('../img/backgrounds/sections-bg.jpg');
   background-size: cover;
-  height: 100vh;
 }
 
 li{
@@ -93,7 +92,7 @@ ul{
 }
 
 .menu-bg{
-  cursor: url(../img/cursor-fly.png), auto;
+  cursor: url(../img/cursors/cursor-fly.png), auto;
   float: right;
   margin-right: 2%;
 }

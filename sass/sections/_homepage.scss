@@ -1,5 +1,13 @@
+.clearfix{
+  &::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+}
+
 #homepage{
-  background-image: url('../img/burdeos.jpg');
+  background-image: url('../img/backgrounds/homepage-bg.jpg');
   background-size: cover;
   height: 100vh;
 }
@@ -66,10 +74,9 @@
   margin: 20px 20px 0px 0px;
 }
 
-.clearfix{
-  &::after {
-    display: block;
-    content: "";
-    clear: both;
-  }
+.lang:hover{
+  background-color: #F0EA5B;
+  border: 2px solid;
+  box-shadow: inset 0 0 20px $gold, 0 0 15px $gold;
+  outline-offset: 15px;
 }

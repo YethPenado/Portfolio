@@ -1,24 +1,28 @@
 .columns{
   border: solid 3px $wine;
-  background-image: url(../img/green-bg.jpg);
+  background-image: url(../img/backgrounds/green-bg.jpg);
   margin-right: 1%;
   margin-top: 2%;
   width: 25%;
   position: relative;
 }
 
-.services-title, .services-subtitle{
+.skills{
+  font-size: $size-principal;
+  list-style-image: url('../img/settings.png');
+  padding-bottom: 20px;
+}
+
+.skills:hover{
+  @include zoom-in();
+}
+
+.title, .services-subtitle{
   text-align: center;
   font-size: 3em;
   font-family: $font-titular;
   letter-spacing: 3px;
   color: $brown;
-}
-
-.skills{
-  font-size: $size-principal;
-  list-style-image: url('../img/settings.png');
-  padding-bottom: 20px;
 }
 
 .ul-skills{

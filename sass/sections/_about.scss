@@ -1,6 +1,7 @@
 .btn-about-container{
   margin-bottom: 10%;
 }
+
 .contact-button{
   background-color: $wine;
 	border-bottom: 5px solid #550921;
@@ -17,23 +18,7 @@
   box-shadow: inset 0 0 15px $gold, 0 0 15px #805B26;
   outline-offset: 15px;
 }
-/* .contact-button:hover{
-  animation: shake 180ms 2 linear;
-  display: inline-block;
-}
 
-@keyframes shake {
-  0% {
-    transform: translate(3px, 0);
-  }
-  50% {
-    transform: translate(-3px, 0);
-  }
-  100% {
-    transform: translate(0, 0);
-  }
-}
-*/
 .language-button{
   float: right;
   position: relative;

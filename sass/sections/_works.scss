@@ -1,0 +1,16 @@
+.github-activity{
+  margin-top: 5%;
+}
+
+.projects-container{
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+}
+
+.projects{
+  border: 5px solid whitesmoke;
+  @include zoom-in();
+  margin: 1%;
+  width: 25%;
+}

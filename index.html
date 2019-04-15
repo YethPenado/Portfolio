@@ -5,24 +5,36 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png"/>
-  <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="img/assets/favicon.png"/>
+  <link href="https://fonts.googleapis.com/css?family=Mukta" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css"/>
   <title>Yeth Penado - Portfolio</title>
 </head>
 
 <body>
-  <div id="homepage">
-    <a href="pages/español/principal.html" class="lang clearfix">EN</a>
-    <h1 class="name">YETH PENADO</h1>
-    <h2 class="profesion">Front-End Developer</h2>
-  
-    <ul>
-      <li class="menu-li"><a href="pages/english/about.html" class="menu-a">ABOUT ME</a></li>
-      <li class="menu-li"><a href="pages/english/services.html" class="menu-a">SERVICES</a></li>
-      <li class="menu-li"><a href="pages/english/works.html" class="menu-a">WORKS</a></li>
-      <li class="menu-li"><a href="pages/english/contact.html" class="menu-a">CONTACT</a></li>
-    </ul>
+  <div class="homepage-wrapper">
+    <main role="main" class="homepage-main">
+      <a href="sections/español/principal.html" class="homepage__link--lang">EN</a>
+      <h1 class="homepage__title">YETH PENADO</h1>
+      <h2 class="homepage__subtitle">Front-End Developer</h2>
+
+      <nav>
+        <ul class="homepage__nav">
+          <li class="homepageNav-item__li">
+            <a href="sections/english/about.html" class="homepageNav-item__link">ABOUT ME</a>
+          </li>
+          <li class="homepageNav-item__li">
+            <a href="sections/english/services.html" class="homepageNav-item__link">SERVICES</a>
+          </li>
+          <li class="homepageNav-item__li">
+            <a href="sections/english/projects.html" class="homepageNav-item__link">PROJECTS</a>
+          </li>
+          <li class="homepageNav-item__li">
+            <a href="sections/english/contact.html" class="homepageNav-item__link">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+    </main>
   </div>
 
   <script src="js/script.js"></script>

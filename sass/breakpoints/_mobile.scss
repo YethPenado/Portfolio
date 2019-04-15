@@ -1,0 +1,32 @@
+@media (max-width: $breakpoint-sm){
+  // About section
+  .columns-container{
+    display: block;
+    max-width: 100%;
+  }
+  .columns__item{
+    width: 77%;
+  }
+  .profile{
+    max-width: 100%;
+    margin-top: -75px;
+  }
+  
+  //Services section
+  .column-services{
+    max-width: 100%;
+  }
+  .services__content{
+    margin-bottom: 25px;
+    height: 300px;
+    width: 75%;
+  }
+  .services__list{
+    padding-left: 20px;
+  }
+  .section__title{
+    margin: 25px 0;
+  }
+
+  //Contact section
+}

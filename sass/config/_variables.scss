@@ -1,0 +1,34 @@
+// BREAKPOINTS
+$breakpoint-xs: 0px;
+$breakpoint-sm: 576px; // Mobile
+$breakpoint-md: 768px; // Tablet
+$breakpoint-lg: 1024px; // Laptop
+$breakpoint-xl: 1200px;
+
+
+// FONTS
+$font-titular: 'akkaPose', Helvetica;
+$font-principal: 'Mukta', sans-serif;
+
+@font-face{
+  font-family: akkaPose;
+  src: url(../font/akaPosse.ttf);
+}
+
+
+// COLORS
+$black: black;
+$light-blue: #0490bb;
+$pink: pink;
+$white: white;
+$wine: #781F3C;
+
+
+// MIXINS
+@mixin imgHover{
+  transform: scale(1);
+  transition: .3s ease-in-out;
+    &:hover{
+  transform: scale(1.1);
+  }
+}

@@ -1,0 +1,22 @@
+.homepage__link--lang{
+  background-color: #f1ebee;
+  border-radius: 5px;
+  border-bottom: 5px solid #dbd3d7;
+  box-shadow: 0px 1px 8px 3px #a8a6a6;
+  color: $black;
+  float: right;
+  font-family: $font-titular;
+  font-size: 1.75em;
+  margin: 20px 20px 0px 0px;
+  padding: 10px 15px;
+  position: absolute;
+  right: 0;
+  transition-duration: 0.4s;
+}
+
+.homepage__link--lang:hover{
+  background-color: #ffdae0;
+  border-bottom: 5px solid #e4a2ad;
+  box-shadow: 0px 2px 15px 10px #8a5c64;
+  color: $wine;
+}

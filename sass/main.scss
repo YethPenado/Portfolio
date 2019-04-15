@@ -1,0 +1,25 @@
+@import 'config/variables';
+@import 'components/general';
+
+@import 'sections/sections-general/sections-general';
+
+@import 'sections/homepage/homepage-section';
+@import 'sections/homepage/homepage-nav';
+@import 'sections/homepage/homepage-buttons';
+@import 'sections/homepage/homepage-text';
+
+@import 'sections/about/about-img';
+@import 'sections/about/about-text';
+
+@import 'sections/services/services-text';
+@import 'sections/services/services-column';
+
+@import 'sections/projects/projects-section';
+@import 'sections/projects/projects-text';
+
+@import 'sections/contact/contact-text';
+@import 'sections/contact/contact-icons';
+
+@import 'breakpoints/laptop';
+@import 'breakpoints/tablet';
+@import 'breakpoints/mobile';

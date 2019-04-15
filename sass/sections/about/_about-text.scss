@@ -1,0 +1,19 @@
+.about__email{
+  color: $wine;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.about__email:hover{
+  color: #756064;
+  transition-duration: 0.4s;
+}
+
+.about__email:visited{
+  color: $light-blue;
+}
+
+.about__item__text{
+  font-size: 1.25em;
+  padding-bottom: 30px;
+}

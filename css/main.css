@@ -5,6 +5,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 a {
@@ -23,15 +24,8 @@ footer {
   width: 100%;
 }
 
-header {
-  position: sticky;
-  top: 0;
-  width: 100%;
-}
-
-html {
+.sections-wrapper {
   background-image: url(../img/backgrounds/background-sections.png);
-  background-size: cover;
 }
 
 li {
@@ -159,21 +153,6 @@ p::selection {
   text-align: center;
 }
 
-.section__title:hover {
-  animation: shake 280ms 3 linear;
-}
-
-@keyframes shake {
-  0% {
-    transform: translate(3px, 0);
-  }
-  50% {
-    transform: translate(-3px, 0);
-  }
-  100% {
-    transform: translate(0, 0);
-  }
-}
 .columns-container {
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.363);
   display: flex;
@@ -189,18 +168,55 @@ p::selection {
   width: 50%;
 }
 
-.homepage-main {
+.homepage-wrapper {
   background-image: url("../img/backgrounds/background-homepage.jpg");
   background-size: cover;
-  height: 100vh;
+  height: 120vh;
+}
+@media (min-width: 375px) {
+  .homepage-wrapper {
+    height: 100vh;
+  }
+}
+
+.homepage-main {
+  max-width: 80%;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .homepage-main {
+    max-width: 100%;
+  }
+}
+
+.lang-container {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 25px;
+}
+@media (min-width: 768px) {
+  .lang-container {
+    padding-right: 30px;
+    padding-top: 30px;
+  }
 }
 
 .homepageNav-item__link {
   color: pink;
   font-family: "akkaPose", Helvetica;
-  font-size: 2em;
+  font-size: 1.375rem;
   padding: 10px 25px;
   position: relative;
+}
+@media (min-width: 520px) {
+  .homepageNav-item__link {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1024px) {
+  .homepageNav-item__link {
+    font-size: 2rem;
+  }
 }
 
 .homepageNav-item__link::before {
@@ -223,51 +239,81 @@ p::selection {
   text-align: center;
   letter-spacing: 2px;
   list-style: none;
-  margin-bottom: 20px;
-  padding: 20px 0;
+  padding: 18px 0;
+}
+@media (min-width: 768px) {
+  .homepageNav-item__li {
+    padding: 25px 0;
+  }
+}
+@media (min-width: 1440px) {
+  .homepageNav-item__li {
+    padding: 30px 0;
+  }
 }
 
 .homepage__link--lang {
   background-color: #f1ebee;
   border-radius: 5px;
+  font-size: 1.675rem;
   border-bottom: 5px solid #dbd3d7;
   box-shadow: 0px 1px 8px 3px #a8a6a6;
   color: black;
-  float: right;
   font-family: "akkaPose", Helvetica;
-  font-size: 1.75em;
-  margin: 20px 20px 0px 0px;
-  padding: 10px 15px;
-  position: absolute;
-  right: 0;
+  padding: 8px 15px;
   transition-duration: 0.4s;
 }
 
 .homepage__link--lang:hover {
   background-color: #ffdae0;
   border-bottom: 5px solid #e4a2ad;
-  box-shadow: 0px 2px 15px 10px #8a5c64;
+  box-shadow: 0px 1px 8px 3px #8a5c64;
   color: #781F3C;
 }
 
 .homepage__title {
   color: pink;
   font-family: "akkaPose", Helvetica;
-  font-size: 6.25em;
+  font-size: 4.5rem;
   letter-spacing: 4px;
-  margin: 0;
-  padding-top: 5%;
+  padding-top: 30px;
   text-align: center;
+}
+@media (min-width: 520px) {
+  .homepage__title {
+    font-size: 5rem;
+  }
+}
+@media (min-width: 768px) {
+  .homepage__title {
+    font-size: 6.25rem;
+  }
 }
 
 .homepage__subtitle {
   color: pink;
   font-family: "Mukta", sans-serif;
-  font-size: 2em;
+  font-size: 1.25rem;
   letter-spacing: 3px;
-  margin-bottom: 5%;
-  padding-top: 1%;
+  margin-bottom: 35px;
+  padding-top: 15px;
   text-align: center;
+}
+@media (min-width: 520px) {
+  .homepage__subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 55px;
+  }
+}
+@media (min-width: 768px) {
+  .homepage__subtitle {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1024px) {
+  .homepage__subtitle {
+    margin-bottom: 65px;
+  }
 }
 
 .profile {
@@ -405,40 +451,6 @@ p::selection {
 .icons {
   color: #781F3C;
   font-size: 3.125em;
-}
-
-@media (max-width: 576px) {
-  .columns-container {
-    display: block;
-    max-width: 100%;
-  }
-
-  .columns__item {
-    width: 77%;
-  }
-
-  .profile {
-    max-width: 100%;
-    margin-top: -75px;
-  }
-
-  .column-services {
-    max-width: 100%;
-  }
-
-  .services__content {
-    margin-bottom: 25px;
-    height: 300px;
-    width: 75%;
-  }
-
-  .services__list {
-    padding-left: 20px;
-  }
-
-  .section__title {
-    margin: 25px 0;
-  }
 }
 
 /*# sourceMappingURL=main.css.map */

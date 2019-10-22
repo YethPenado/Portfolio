@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 a{
@@ -19,15 +20,8 @@ footer{
   width: 100%;
 }
 
-header{
-  position: sticky;
-  top: 0;
-  width: 100%;
-}
-
-html{
+.sections-wrapper{
   background-image: url(../img/backgrounds/background-sections.png);
-  background-size: cover;
 }
 
 li{

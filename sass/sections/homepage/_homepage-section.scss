@@ -1,5 +1,29 @@
-.homepage-main{
+.homepage-wrapper{
   background-image: url('../img/backgrounds/background-homepage.jpg');
   background-size: cover;
-  height: 100vh;
+  height: 120vh;
+  
+  @media (min-width: 375px) {
+    height: 100vh;
+  }
+}
+
+.homepage-main {
+  max-width: 80%;
+  margin: 0 auto;
+
+  @media (min-width: $breakpoint-md) {
+    max-width: 100%;
+  }
+}
+
+.lang-container {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 25px;
+
+  @media (min-width: $breakpoint-md) {
+    padding-right: 30px;
+    padding-top: 30px;
+  }
 }

@@ -1,13 +1,19 @@
-.homepageNav-item__link{
+.homepageNav-item__link {
   color: $pink;
   font-family: $font-titular;
-  font-size: 2em;
+  font-size: 1.375rem;
   padding: 10px 25px;
   position: relative;
+
+  @media (min-width: $breakpoint-sm) {
+    font-size: 2rem;
+  }
+  @media (min-width: $breakpoint-lg) {
+    font-size: 2rem;
+  }
 }
 
-
-.homepageNav-item__link::before{
+.homepageNav-item__link::before {
   background-color: white;
   content: '';
   display: block;
@@ -19,14 +25,20 @@
   width: 0;
 }
 
-.homepageNav-item__link:hover::before{
+.homepageNav-item__link:hover::before {
   width: 100%;
 }
 
-.homepageNav-item__li{
+.homepageNav-item__li {
   text-align: center;
   letter-spacing: 2px;
   list-style: none;
-  margin-bottom: 20px;
-  padding: 20px 0;
+  padding: 18px 0;
+
+  @media (min-width: $breakpoint-md) {
+    padding: 25px 0;
+  }
+  @media (min-width: $breakpoint-xl) {
+    padding: 30px 0;
+  }
 }

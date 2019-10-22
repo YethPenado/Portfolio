@@ -382,6 +382,7 @@ p::selection {
 
 .services__list {
   margin-bottom: 20px;
+  margin-left: 15px;
 }
 
 .services__itemList {
@@ -399,12 +400,23 @@ p::selection {
 
 .column-services {
   display: flex;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  flex-flow: row wrap;
-  justify-content: center;
+  flex-direction: column;
   margin: 0 auto;
-  max-width: 55%;
+  max-width: 80%;
+}
+@media (min-width: 768px) {
+  .column-services {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+@media (min-width: 1440px) {
+  .column-services {
+    flex-flow: row wrap;
+    justify-content: center;
+    max-width: 55%;
+  }
 }
 
 .services__content {
@@ -412,10 +424,20 @@ p::selection {
   border: 2px solid black;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.363);
   box-sizing: border-box;
-  margin-right: 2%;
-  margin-bottom: 2%;
+  margin-bottom: 30px;
   padding: 20px 40px;
-  width: 40%;
+}
+@media (min-width: 768px) {
+  .services__content {
+    width: 48%;
+  }
+}
+@media (min-width: 1440px) {
+  .services__content {
+    margin-right: 2%;
+    margin-bottom: 2%;
+    width: 43%;
+  }
 }
 
 .projects__content {
@@ -472,13 +494,17 @@ p::selection {
   margin-bottom: 5%;
 }
 
+.contact__icons {
+  margin-top: 15px;
+}
+
 .contact__item__socialMedia {
   display: inline-block;
   margin-right: 5%;
 }
 
 .icons {
-  color: #781F3C;
+  color: black;
   font-size: 3.125em;
 }
 

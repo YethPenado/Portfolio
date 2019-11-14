@@ -1,24 +1,44 @@
-.projects__content{
-  background-color: rgba(255, 192, 203, 0.644);
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.363);
-  margin: 0 auto;
-  padding: 3em;
-  max-width: 55%;
-}
-
-#github__list{
-  margin-top: 2%;
-}
-
 .projects__img{
   border: 5px solid $white;
   box-sizing: border-box;
-  margin-right: 2%;
-  margin-top: 3%;
-  @include imgHover;
-  width: 31%;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
 }
 
 .projects__img:hover{
   @include imgHover;
+}
+
+.projects__content {
+  background-color: rgba(255, 192, 203, 0.644);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.363);
+  margin: 0 auto;
+  max-width: 85%;
+}
+
+.projects__list{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+
+  @media (min-width: $breakpoint-md) {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 0;
+  }
+}
+
+.projects__list__item {
+  // width: 50%;
+  margin: 20px 15px;
+
+  @media (min-width: $breakpoint-md) {
+    width: 45%;
+  }
+  @media (min-width: $breakpoint-lg) {
+    width: 25%;
+  }
 }
